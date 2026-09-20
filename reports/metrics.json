@@ -1,0 +1,62 @@
+{
+  "test_size": 16162,
+  "fraud_count": 297,
+  "fraud_rate": 0.01837643855958421,
+  "models": [
+    {
+      "model": "rules",
+      "pr_auc": 0.042355079872614027,
+      "roc_auc": 0.3189904083380289,
+      "precision@50": 0.12,
+      "recall@50": 1.0,
+      "precision@100": 0.06,
+      "recall@100": 1.0,
+      "precision@200": 0.09,
+      "recall@200": 1.0
+    },
+    {
+      "model": "lr_base",
+      "pr_auc": 0.6548353028683548,
+      "roc_auc": 0.9650305980277615,
+      "precision@50": 0.92,
+      "recall@50": 1.0,
+      "precision@100": 0.84,
+      "recall@100": 1.0,
+      "precision@200": 0.755,
+      "recall@200": 1.0
+    },
+    {
+      "model": "lr_graph",
+      "pr_auc": 0.837370435564819,
+      "roc_auc": 0.998013754521791,
+      "precision@50": 0.88,
+      "recall@50": 1.0,
+      "precision@100": 0.88,
+      "recall@100": 1.0,
+      "precision@200": 0.805,
+      "recall@200": 1.0
+    },
+    {
+      "model": "lgb_base",
+      "pr_auc": 0.8539287377571708,
+      "roc_auc": 0.9846315874365039,
+      "precision@50": 1.0,
+      "recall@50": 1.0,
+      "precision@100": 1.0,
+      "recall@100": 1.0,
+      "precision@200": 0.955,
+      "recall@200": 1.0
+    },
+    {
+      "model": "lgb_graph",
+      "pr_auc": 0.9978701708155082,
+      "roc_auc": 0.9999603132915456,
+      "precision@50": 1.0,
+      "recall@50": 1.0,
+      "precision@100": 1.0,
+      "recall@100": 1.0,
+      "precision@200": 1.0,
+      "recall@200": 1.0
+    }
+  ]
+}

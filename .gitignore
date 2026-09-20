@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Data (keep sample only)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+!data/demo/
+
+# Models
+*.pkl
+*.joblib
+models/
+
+# Next.js
+.next/
+out/
+node_modules/
+.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

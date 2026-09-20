@@ -1,0 +1,4766 @@
+[
+  {
+    "txn_id": "TXN071585",
+    "timestamp": "2026-08-19T13:12:43",
+    "amount": 140.77,
+    "account_id": "ACC02552",
+    "merchant_id": "MER0179",
+    "device_id": "DEV_RING_0006_A",
+    "channel": "mobile",
+    "fraud_score": 0.9967073844545792,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "9 shared"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067915",
+    "timestamp": "2026-08-15T12:15:48",
+    "amount": 251.91,
+    "account_id": "ACC04465",
+    "merchant_id": "MER1848",
+    "device_id": "DEV_RING_0007_A",
+    "channel": "mobile",
+    "fraud_score": 0.9966926612126666,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "10 shared"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN064665",
+    "timestamp": "2026-08-11T23:34:45.248368",
+    "amount": 2534.41,
+    "account_id": "ACC02328",
+    "merchant_id": "MER1045",
+    "device_id": "DEV_TEST_0018",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 24h velocity",
+        "value": "19 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 45.3"
+      },
+      {
+        "feature": "High account activity",
+        "value": "35 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN064703",
+    "timestamp": "2026-08-12T00:25:58",
+    "amount": 1052.43,
+    "account_id": "ACC03101",
+    "merchant_id": "MER1654",
+    "device_id": "DEV_MULE_0023",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN064748",
+    "timestamp": "2026-08-12T01:30:59",
+    "amount": 739.81,
+    "account_id": "ACC02728",
+    "merchant_id": "MER1712",
+    "device_id": "DEV_MULE_0015",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN064858",
+    "timestamp": "2026-08-12T03:48:56",
+    "amount": 1075.04,
+    "account_id": "ACC04908",
+    "merchant_id": "MER1956",
+    "device_id": "DEV_MULE_0019",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065332",
+    "timestamp": "2026-08-12T16:18:33",
+    "amount": 1278.36,
+    "account_id": "ACC04640",
+    "merchant_id": "MER1645",
+    "device_id": "DEV_MULE_0000",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065369",
+    "timestamp": "2026-08-12T16:59:58",
+    "amount": 316.99,
+    "account_id": "ACC04873",
+    "merchant_id": "MER1968",
+    "device_id": "DEV_MULE_0007",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065405",
+    "timestamp": "2026-08-12T17:39:48",
+    "amount": 638.47,
+    "account_id": "ACC02877",
+    "merchant_id": "MER1436",
+    "device_id": "DEV_ATO_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 5.7"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065421",
+    "timestamp": "2026-08-12T18:00:48",
+    "amount": 900.9,
+    "account_id": "ACC02877",
+    "merchant_id": "MER1865",
+    "device_id": "DEV_ATO_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 4.8"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065435",
+    "timestamp": "2026-08-12T18:21:48",
+    "amount": 1224.91,
+    "account_id": "ACC02877",
+    "merchant_id": "MER1084",
+    "device_id": "DEV_ATO_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 4.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065437",
+    "timestamp": "2026-08-12T18:30:48",
+    "amount": 470.14,
+    "account_id": "ACC02877",
+    "merchant_id": "MER0352",
+    "device_id": "DEV_ATO_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065448",
+    "timestamp": "2026-08-12T18:45:48",
+    "amount": 958.38,
+    "account_id": "ACC02877",
+    "merchant_id": "MER1509",
+    "device_id": "DEV_ATO_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.2"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065459",
+    "timestamp": "2026-08-12T18:56:48",
+    "amount": 467.67,
+    "account_id": "ACC02877",
+    "merchant_id": "MER1169",
+    "device_id": "DEV_ATO_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065621",
+    "timestamp": "2026-08-12T22:45:35",
+    "amount": 171.47,
+    "account_id": "ACC04765",
+    "merchant_id": "MER1765",
+    "device_id": "DEV_MULE_0013",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065716",
+    "timestamp": "2026-08-13T01:17:14",
+    "amount": 810.81,
+    "account_id": "ACC02613",
+    "merchant_id": "MER1924",
+    "device_id": "DEV_MULE_0002",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065817",
+    "timestamp": "2026-08-13T04:11:55",
+    "amount": 748.67,
+    "account_id": "ACC02728",
+    "merchant_id": "MER1712",
+    "device_id": "DEV_MULE_0015",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065899",
+    "timestamp": "2026-08-13T06:27:48",
+    "amount": 1220.64,
+    "account_id": "ACC04155",
+    "merchant_id": "MER0189",
+    "device_id": "DEV_ATO_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 15.9"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065908",
+    "timestamp": "2026-08-13T06:41:48",
+    "amount": 1366.51,
+    "account_id": "ACC04155",
+    "merchant_id": "MER1992",
+    "device_id": "DEV_ATO_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 3.7"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065921",
+    "timestamp": "2026-08-13T07:02:48",
+    "amount": 184.47,
+    "account_id": "ACC04155",
+    "merchant_id": "MER0429",
+    "device_id": "DEV_ATO_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065951",
+    "timestamp": "2026-08-13T07:44:48",
+    "amount": 1290.92,
+    "account_id": "ACC04155",
+    "merchant_id": "MER1166",
+    "device_id": "DEV_ATO_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065958",
+    "timestamp": "2026-08-13T07:47:48",
+    "amount": 575.51,
+    "account_id": "ACC04155",
+    "merchant_id": "MER1986",
+    "device_id": "DEV_ATO_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065966",
+    "timestamp": "2026-08-13T07:55:48",
+    "amount": 723.8,
+    "account_id": "ACC04155",
+    "merchant_id": "MER1249",
+    "device_id": "DEV_ATO_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN066059",
+    "timestamp": "2026-08-13T10:01:23",
+    "amount": 1619.12,
+    "account_id": "ACC02664",
+    "merchant_id": "MER1864",
+    "device_id": "DEV_MULE_0006",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.9"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN066248",
+    "timestamp": "2026-08-13T16:02:52",
+    "amount": 644.27,
+    "account_id": "ACC02664",
+    "merchant_id": "MER1864",
+    "device_id": "DEV_MULE_0006",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN066341",
+    "timestamp": "2026-08-13T18:02:13",
+    "amount": 1118.24,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN066425",
+    "timestamp": "2026-08-13T19:57:05",
+    "amount": 140.8,
+    "account_id": "ACC03421",
+    "merchant_id": "MER1951",
+    "device_id": "DEV_MULE_0020",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN066658",
+    "timestamp": "2026-08-14T02:18:11",
+    "amount": 402.26,
+    "account_id": "ACC02613",
+    "merchant_id": "MER1924",
+    "device_id": "DEV_MULE_0002",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067007",
+    "timestamp": "2026-08-14T12:34:45",
+    "amount": 1784.87,
+    "account_id": "ACC01970",
+    "merchant_id": "MER1857",
+    "device_id": "DEV_MULE_0026",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.9"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067122",
+    "timestamp": "2026-08-14T15:22:21",
+    "amount": 960.13,
+    "account_id": "ACC01968",
+    "merchant_id": "MER0328",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 4.5"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067124",
+    "timestamp": "2026-08-14T15:23:21",
+    "amount": 1491.92,
+    "account_id": "ACC01968",
+    "merchant_id": "MER0295",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 5.1"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067132",
+    "timestamp": "2026-08-14T15:30:21",
+    "amount": 945.79,
+    "account_id": "ACC01968",
+    "merchant_id": "MER0585",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067144",
+    "timestamp": "2026-08-14T15:45:21",
+    "amount": 502.06,
+    "account_id": "ACC01968",
+    "merchant_id": "MER1649",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "5 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "High account activity",
+        "value": "22 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067145",
+    "timestamp": "2026-08-14T15:45:33",
+    "amount": 183.72,
+    "account_id": "ACC02353",
+    "merchant_id": "MER1674",
+    "device_id": "DEV_MULE_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067149",
+    "timestamp": "2026-08-14T15:48:21",
+    "amount": 1014.41,
+    "account_id": "ACC01968",
+    "merchant_id": "MER1620",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "6 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "23 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067178",
+    "timestamp": "2026-08-14T16:11:21",
+    "amount": 895.63,
+    "account_id": "ACC01968",
+    "merchant_id": "MER0711",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "8 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "25 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067200",
+    "timestamp": "2026-08-14T16:48:21",
+    "amount": 1320.9,
+    "account_id": "ACC01968",
+    "merchant_id": "MER1422",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.4"
+      },
+      {
+        "feature": "High account activity",
+        "value": "26 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067203",
+    "timestamp": "2026-08-14T16:54:35",
+    "amount": 1893.17,
+    "account_id": "ACC01837",
+    "merchant_id": "MER1698",
+    "device_id": "DEV_MULE_0024",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.5"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067206",
+    "timestamp": "2026-08-14T16:58:21",
+    "amount": 1355.93,
+    "account_id": "ACC01968",
+    "merchant_id": "MER1164",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.2"
+      },
+      {
+        "feature": "High account activity",
+        "value": "27 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067212",
+    "timestamp": "2026-08-14T17:11:21",
+    "amount": 706.68,
+    "account_id": "ACC01968",
+    "merchant_id": "MER1861",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "High account activity",
+        "value": "28 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067256",
+    "timestamp": "2026-08-14T18:23:35",
+    "amount": 1045.83,
+    "account_id": "ACC04448",
+    "merchant_id": "MER1738",
+    "device_id": "DEV_MULE_0027",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067447",
+    "timestamp": "2026-08-14T23:25:51",
+    "amount": 1762.76,
+    "account_id": "ACC04908",
+    "merchant_id": "MER1956",
+    "device_id": "DEV_MULE_0019",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067892",
+    "timestamp": "2026-08-15T11:33:45",
+    "amount": 684.35,
+    "account_id": "ACC01215",
+    "merchant_id": "MER1797",
+    "device_id": "DEV_MULE_0029",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067966",
+    "timestamp": "2026-08-15T13:37:55",
+    "amount": 1660.73,
+    "account_id": "ACC04765",
+    "merchant_id": "MER1765",
+    "device_id": "DEV_MULE_0013",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.8"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067971",
+    "timestamp": "2026-08-15T13:47:47",
+    "amount": 1322.34,
+    "account_id": "ACC00061",
+    "merchant_id": "MER1686",
+    "device_id": "DEV_MULE_0028",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068434",
+    "timestamp": "2026-08-16T01:16:55.209213",
+    "amount": 833.0,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0617",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 24h velocity",
+        "value": "19 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 57.1"
+      },
+      {
+        "feature": "High account activity",
+        "value": "28 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068546",
+    "timestamp": "2026-08-16T04:09:50",
+    "amount": 1612.41,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.1"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068548",
+    "timestamp": "2026-08-16T04:11:46",
+    "amount": 1811.06,
+    "account_id": "ACC03540",
+    "merchant_id": "MER1952",
+    "device_id": "DEV_MULE_0021",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 3.8"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068561",
+    "timestamp": "2026-08-16T04:24:46",
+    "amount": 587.41,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068703",
+    "timestamp": "2026-08-16T08:20:39",
+    "amount": 736.93,
+    "account_id": "ACC03156",
+    "merchant_id": "MER1839",
+    "device_id": "DEV_MULE_0003",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068714",
+    "timestamp": "2026-08-16T08:31:53",
+    "amount": 640.33,
+    "account_id": "ACC04448",
+    "merchant_id": "MER1738",
+    "device_id": "DEV_MULE_0027",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068822",
+    "timestamp": "2026-08-16T11:09:56",
+    "amount": 1174.78,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068858",
+    "timestamp": "2026-08-16T12:08:57.379246",
+    "amount": 1622.1,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1098",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 24h velocity",
+        "value": "19 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 24.4"
+      },
+      {
+        "feature": "High account activity",
+        "value": "33 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069005",
+    "timestamp": "2026-08-16T15:16:24.051771",
+    "amount": 1130.92,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0417",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 24h velocity",
+        "value": "19 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.8"
+      },
+      {
+        "feature": "High account activity",
+        "value": "46 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069288",
+    "timestamp": "2026-08-16T23:13:45",
+    "amount": 1404.25,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069359",
+    "timestamp": "2026-08-17T01:07:06",
+    "amount": 1907.97,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069375",
+    "timestamp": "2026-08-17T01:22:16",
+    "amount": 498.13,
+    "account_id": "ACC02613",
+    "merchant_id": "MER1924",
+    "device_id": "DEV_MULE_0002",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069380",
+    "timestamp": "2026-08-17T01:26:58",
+    "amount": 952.5,
+    "account_id": "ACC02664",
+    "merchant_id": "MER1864",
+    "device_id": "DEV_MULE_0006",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069428",
+    "timestamp": "2026-08-17T02:45:29",
+    "amount": 1747.34,
+    "account_id": "ACC01970",
+    "merchant_id": "MER1857",
+    "device_id": "DEV_MULE_0026",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.3"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069465",
+    "timestamp": "2026-08-17T03:38:39",
+    "amount": 1881.58,
+    "account_id": "ACC03421",
+    "merchant_id": "MER1951",
+    "device_id": "DEV_MULE_0020",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069544",
+    "timestamp": "2026-08-17T05:47:14.069098",
+    "amount": 693.1,
+    "account_id": "ACC04775",
+    "merchant_id": "MER1939",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 24h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 38.8"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069577",
+    "timestamp": "2026-08-17T06:31:52",
+    "amount": 1853.64,
+    "account_id": "ACC02728",
+    "merchant_id": "MER1712",
+    "device_id": "DEV_MULE_0015",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.6"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069607",
+    "timestamp": "2026-08-17T07:17:13",
+    "amount": 863.59,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069701",
+    "timestamp": "2026-08-17T09:52:02",
+    "amount": 183.41,
+    "account_id": "ACC02613",
+    "merchant_id": "MER1924",
+    "device_id": "DEV_MULE_0002",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN070306",
+    "timestamp": "2026-08-18T02:19:17",
+    "amount": 1469.52,
+    "account_id": "ACC03421",
+    "merchant_id": "MER1951",
+    "device_id": "DEV_MULE_0020",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN070452",
+    "timestamp": "2026-08-18T05:43:45",
+    "amount": 1563.65,
+    "account_id": "ACC01837",
+    "merchant_id": "MER1698",
+    "device_id": "DEV_MULE_0024",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN070549",
+    "timestamp": "2026-08-18T08:28:08",
+    "amount": 1432.35,
+    "account_id": "ACC03156",
+    "merchant_id": "MER1839",
+    "device_id": "DEV_MULE_0003",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.1"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN070550",
+    "timestamp": "2026-08-18T08:34:08",
+    "amount": 487.87,
+    "account_id": "ACC00061",
+    "merchant_id": "MER1686",
+    "device_id": "DEV_MULE_0028",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN070820",
+    "timestamp": "2026-08-18T16:05:54",
+    "amount": 630.99,
+    "account_id": "ACC03421",
+    "merchant_id": "MER1951",
+    "device_id": "DEV_MULE_0020",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN070821",
+    "timestamp": "2026-08-18T16:06:30",
+    "amount": 1912.81,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.3"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071116",
+    "timestamp": "2026-08-19T00:34:30",
+    "amount": 1221.37,
+    "account_id": "ACC04318",
+    "merchant_id": "MER1958",
+    "device_id": "DEV_MULE_0001",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071317",
+    "timestamp": "2026-08-19T06:37:55",
+    "amount": 693.11,
+    "account_id": "ACC03063",
+    "merchant_id": "MER1814",
+    "device_id": "DEV_MULE_0011",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071400",
+    "timestamp": "2026-08-19T08:36:47",
+    "amount": 560.48,
+    "account_id": "ACC00061",
+    "merchant_id": "MER1686",
+    "device_id": "DEV_MULE_0028",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071617",
+    "timestamp": "2026-08-19T13:51:44",
+    "amount": 400.18,
+    "account_id": "ACC02664",
+    "merchant_id": "MER1864",
+    "device_id": "DEV_MULE_0006",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071632",
+    "timestamp": "2026-08-19T14:18:23",
+    "amount": 1498.87,
+    "account_id": "ACC01827",
+    "merchant_id": "MER1654",
+    "device_id": "DEV_MULE_0018",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071928",
+    "timestamp": "2026-08-19T21:46:34",
+    "amount": 1344.5,
+    "account_id": "ACC02844",
+    "merchant_id": "MER1783",
+    "device_id": "DEV_MULE_0025",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN072401",
+    "timestamp": "2026-08-20T11:00:39",
+    "amount": 1852.52,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.2"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN072481",
+    "timestamp": "2026-08-20T13:05:02",
+    "amount": 982.51,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN072780",
+    "timestamp": "2026-08-20T21:15:17",
+    "amount": 837.56,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN072805",
+    "timestamp": "2026-08-20T21:55:05",
+    "amount": 1427.16,
+    "account_id": "ACC04063",
+    "merchant_id": "MER1988",
+    "device_id": "DEV_MULE_0012",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN073319",
+    "timestamp": "2026-08-21T10:51:24",
+    "amount": 1851.03,
+    "account_id": "ACC01970",
+    "merchant_id": "MER1857",
+    "device_id": "DEV_MULE_0026",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.3"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN073404",
+    "timestamp": "2026-08-21T13:02:21",
+    "amount": 1905.85,
+    "account_id": "ACC03101",
+    "merchant_id": "MER1654",
+    "device_id": "DEV_MULE_0023",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.3"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN073496",
+    "timestamp": "2026-08-21T15:41:24",
+    "amount": 1849.35,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.1"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN074172",
+    "timestamp": "2026-08-22T08:55:48",
+    "amount": 977.39,
+    "account_id": "ACC04063",
+    "merchant_id": "MER1988",
+    "device_id": "DEV_MULE_0012",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN074204",
+    "timestamp": "2026-08-22T09:36:10",
+    "amount": 1511.64,
+    "account_id": "ACC03540",
+    "merchant_id": "MER1952",
+    "device_id": "DEV_MULE_0021",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN074261",
+    "timestamp": "2026-08-22T10:55:17",
+    "amount": 1046.75,
+    "account_id": "ACC01837",
+    "merchant_id": "MER1698",
+    "device_id": "DEV_MULE_0024",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN074886",
+    "timestamp": "2026-08-23T04:13:31",
+    "amount": 1820.1,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075053",
+    "timestamp": "2026-08-23T09:35:49",
+    "amount": 803.18,
+    "account_id": "ACC03312",
+    "merchant_id": "MER1651",
+    "device_id": "DEV_MULE_0004",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075249",
+    "timestamp": "2026-08-23T14:33:54",
+    "amount": 941.61,
+    "account_id": "ACC04318",
+    "merchant_id": "MER1958",
+    "device_id": "DEV_MULE_0001",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "23 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075309",
+    "timestamp": "2026-08-23T16:10:08",
+    "amount": 304.47,
+    "account_id": "ACC03101",
+    "merchant_id": "MER1654",
+    "device_id": "DEV_MULE_0023",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075332",
+    "timestamp": "2026-08-23T16:54:47",
+    "amount": 722.67,
+    "account_id": "ACC02844",
+    "merchant_id": "MER1783",
+    "device_id": "DEV_MULE_0025",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075526",
+    "timestamp": "2026-08-23T22:11:14",
+    "amount": 1161.91,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075788",
+    "timestamp": "2026-08-24T06:06:50",
+    "amount": 1274.27,
+    "account_id": "ACC04448",
+    "merchant_id": "MER1738",
+    "device_id": "DEV_MULE_0027",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075845",
+    "timestamp": "2026-08-24T07:44:43",
+    "amount": 820.91,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN075851",
+    "timestamp": "2026-08-24T07:54:09",
+    "amount": 220.75,
+    "account_id": "ACC02454",
+    "merchant_id": "MER1988",
+    "device_id": "DEV_MULE_0014",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076053",
+    "timestamp": "2026-08-24T13:08:38",
+    "amount": 1148.2,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076095",
+    "timestamp": "2026-08-24T14:33:30",
+    "amount": 1832.85,
+    "account_id": "ACC02728",
+    "merchant_id": "MER1712",
+    "device_id": "DEV_MULE_0015",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.2"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076111",
+    "timestamp": "2026-08-24T15:01:36",
+    "amount": 1753.07,
+    "account_id": "ACC04121",
+    "merchant_id": "MER1636",
+    "device_id": "DEV_MULE_0008",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076325",
+    "timestamp": "2026-08-24T20:41:00",
+    "amount": 1568.48,
+    "account_id": "ACC04448",
+    "merchant_id": "MER1738",
+    "device_id": "DEV_MULE_0027",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076860",
+    "timestamp": "2026-08-25T12:11:02",
+    "amount": 1986.69,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.2"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076870",
+    "timestamp": "2026-08-25T12:25:21",
+    "amount": 1056.26,
+    "account_id": "ACC02353",
+    "merchant_id": "MER1674",
+    "device_id": "DEV_MULE_0005",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN076887",
+    "timestamp": "2026-08-25T13:01:09",
+    "amount": 438.07,
+    "account_id": "ACC01970",
+    "merchant_id": "MER1857",
+    "device_id": "DEV_MULE_0026",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077029",
+    "timestamp": "2026-08-25T17:15:13",
+    "amount": 1158.0,
+    "account_id": "ACC02728",
+    "merchant_id": "MER1712",
+    "device_id": "DEV_MULE_0015",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077050",
+    "timestamp": "2026-08-25T17:43:59",
+    "amount": 1631.08,
+    "account_id": "ACC01215",
+    "merchant_id": "MER1797",
+    "device_id": "DEV_MULE_0029",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077131",
+    "timestamp": "2026-08-25T19:48:42",
+    "amount": 1015.56,
+    "account_id": "ACC01598",
+    "merchant_id": "MER1704",
+    "device_id": "DEV_MULE_0022",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077392",
+    "timestamp": "2026-08-26T02:36:12",
+    "amount": 1131.59,
+    "account_id": "ACC04640",
+    "merchant_id": "MER1645",
+    "device_id": "DEV_MULE_0000",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077706",
+    "timestamp": "2026-08-26T11:22:38",
+    "amount": 1189.48,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077715",
+    "timestamp": "2026-08-26T11:38:52",
+    "amount": 1492.1,
+    "account_id": "ACC02422",
+    "merchant_id": "MER1950",
+    "device_id": "DEV_MULE_0009",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077880",
+    "timestamp": "2026-08-26T15:58:31",
+    "amount": 1319.34,
+    "account_id": "ACC04318",
+    "merchant_id": "MER1958",
+    "device_id": "DEV_MULE_0001",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "23 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077923",
+    "timestamp": "2026-08-26T17:04:37",
+    "amount": 1064.04,
+    "account_id": "ACC03312",
+    "merchant_id": "MER1651",
+    "device_id": "DEV_MULE_0004",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077929",
+    "timestamp": "2026-08-26T17:19:01",
+    "amount": 898.6,
+    "account_id": "ACC03156",
+    "merchant_id": "MER1839",
+    "device_id": "DEV_MULE_0003",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN077933",
+    "timestamp": "2026-08-26T17:22:32",
+    "amount": 334.88,
+    "account_id": "ACC01837",
+    "merchant_id": "MER1698",
+    "device_id": "DEV_MULE_0024",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078065",
+    "timestamp": "2026-08-26T20:55:17",
+    "amount": 965.82,
+    "account_id": "ACC00962",
+    "merchant_id": "MER1881",
+    "device_id": "DEV_MULE_0010",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078079",
+    "timestamp": "2026-08-26T21:21:52",
+    "amount": 1284.63,
+    "account_id": "ACC00061",
+    "merchant_id": "MER1686",
+    "device_id": "DEV_MULE_0028",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078180",
+    "timestamp": "2026-08-27T00:22:08",
+    "amount": 812.84,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078279",
+    "timestamp": "2026-08-27T03:02:04",
+    "amount": 268.44,
+    "account_id": "ACC00650",
+    "merchant_id": "MER1824",
+    "device_id": "DEV_MULE_0016",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078315",
+    "timestamp": "2026-08-27T03:57:24",
+    "amount": 1764.27,
+    "account_id": "ACC04121",
+    "merchant_id": "MER1636",
+    "device_id": "DEV_MULE_0008",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078501",
+    "timestamp": "2026-08-27T09:11:03",
+    "amount": 1159.94,
+    "account_id": "ACC04121",
+    "merchant_id": "MER1636",
+    "device_id": "DEV_MULE_0008",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078569",
+    "timestamp": "2026-08-27T11:12:30",
+    "amount": 1632.21,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078847",
+    "timestamp": "2026-08-27T18:12:35",
+    "amount": 696.53,
+    "account_id": "ACC04765",
+    "merchant_id": "MER1765",
+    "device_id": "DEV_MULE_0013",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078898",
+    "timestamp": "2026-08-27T19:51:52",
+    "amount": 926.24,
+    "account_id": "ACC04318",
+    "merchant_id": "MER1958",
+    "device_id": "DEV_MULE_0001",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "23 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078939",
+    "timestamp": "2026-08-27T20:49:02",
+    "amount": 1731.84,
+    "account_id": "ACC02664",
+    "merchant_id": "MER1864",
+    "device_id": "DEV_MULE_0006",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.6"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN078952",
+    "timestamp": "2026-08-27T21:26:20",
+    "amount": 1527.24,
+    "account_id": "ACC03312",
+    "merchant_id": "MER1651",
+    "device_id": "DEV_MULE_0004",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN079033",
+    "timestamp": "2026-08-27T23:53:56",
+    "amount": 509.55,
+    "account_id": "ACC02728",
+    "merchant_id": "MER1712",
+    "device_id": "DEV_MULE_0015",
+    "channel": "online",
+    "fraud_score": 0.9966851381748034,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069108",
+    "timestamp": "2026-08-16T17:56:32",
+    "amount": 198.12,
+    "account_id": "ACC02552",
+    "merchant_id": "MER1210",
+    "device_id": "DEV_RING_0006_A",
+    "channel": "online",
+    "fraud_score": 0.9966837103120657,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "9 shared"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069472",
+    "timestamp": "2026-08-17T03:52:38",
+    "amount": 161.42,
+    "account_id": "ACC00725",
+    "merchant_id": "MER0888",
+    "device_id": "DEV_RING_0008_A",
+    "channel": "online",
+    "fraud_score": 0.9966837103120657,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "10 shared"
+      },
+      {
+        "feature": "High account activity",
+        "value": "26 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067125",
+    "timestamp": "2026-08-14T15:24:21",
+    "amount": 82.55,
+    "account_id": "ACC01968",
+    "merchant_id": "MER1702",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067165",
+    "timestamp": "2026-08-14T16:01:21",
+    "amount": 87.44,
+    "account_id": "ACC01968",
+    "merchant_id": "MER0974",
+    "device_id": "DEV_ATO_0046",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "ato_burst",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "7 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "24 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068295",
+    "timestamp": "2026-08-15T21:55:33",
+    "amount": 2.42,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0681",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068296",
+    "timestamp": "2026-08-15T21:55:33",
+    "amount": 4.77,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0677",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068297",
+    "timestamp": "2026-08-15T21:56:33",
+    "amount": 1.27,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0250",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "5 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068298",
+    "timestamp": "2026-08-15T21:56:33",
+    "amount": 4.42,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1014",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "6 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068307",
+    "timestamp": "2026-08-15T22:02:33",
+    "amount": 1.41,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1711",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "7 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068309",
+    "timestamp": "2026-08-15T22:04:33",
+    "amount": 4.57,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0007",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "8 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068310",
+    "timestamp": "2026-08-15T22:05:33",
+    "amount": 4.39,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0911",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "9 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068311",
+    "timestamp": "2026-08-15T22:09:33",
+    "amount": 1.65,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1570",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068319",
+    "timestamp": "2026-08-15T22:26:33",
+    "amount": 0.54,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1082",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068323",
+    "timestamp": "2026-08-15T22:30:33",
+    "amount": 3.2,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0722",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "12 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "12 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068325",
+    "timestamp": "2026-08-15T22:31:33",
+    "amount": 2.01,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1611",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "13 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "13 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "22 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068333",
+    "timestamp": "2026-08-15T22:42:33",
+    "amount": 0.52,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0559",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "14 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "14 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "23 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068337",
+    "timestamp": "2026-08-15T22:44:33",
+    "amount": 3.97,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1343",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "15 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "15 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "24 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068339",
+    "timestamp": "2026-08-15T22:46:33",
+    "amount": 2.05,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0706",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "16 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "16 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "25 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068342",
+    "timestamp": "2026-08-15T22:48:33",
+    "amount": 1.05,
+    "account_id": "ACC00407",
+    "merchant_id": "MER0539",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "17 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "17 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "26 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068344",
+    "timestamp": "2026-08-15T22:49:33",
+    "amount": 1.16,
+    "account_id": "ACC00407",
+    "merchant_id": "MER1241",
+    "device_id": "DEV_TEST_0026",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "18 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "18 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "27 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068749",
+    "timestamp": "2026-08-16T09:35:23",
+    "amount": 4.14,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0352",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068753",
+    "timestamp": "2026-08-16T09:42:23",
+    "amount": 1.5,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1505",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068755",
+    "timestamp": "2026-08-16T09:44:23",
+    "amount": 2.02,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0067",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068759",
+    "timestamp": "2026-08-16T09:48:23",
+    "amount": 2.84,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1852",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068760",
+    "timestamp": "2026-08-16T09:48:23",
+    "amount": 4.4,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1756",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "5 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068768",
+    "timestamp": "2026-08-16T09:56:23",
+    "amount": 3.04,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0218",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "6 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068773",
+    "timestamp": "2026-08-16T10:01:23",
+    "amount": 2.15,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1584",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "7 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "22 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068774",
+    "timestamp": "2026-08-16T10:01:23",
+    "amount": 1.89,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0358",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "8 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "23 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068783",
+    "timestamp": "2026-08-16T10:08:23",
+    "amount": 2.79,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0167",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "9 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "24 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068784",
+    "timestamp": "2026-08-16T10:10:23",
+    "amount": 4.87,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0012",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "25 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068787",
+    "timestamp": "2026-08-16T10:12:23",
+    "amount": 2.56,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0631",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "12 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "26 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068790",
+    "timestamp": "2026-08-16T10:15:23",
+    "amount": 0.56,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1775",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "12 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "13 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "27 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068792",
+    "timestamp": "2026-08-16T10:18:23",
+    "amount": 2.72,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1305",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "13 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "14 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "28 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068799",
+    "timestamp": "2026-08-16T10:26:23",
+    "amount": 3.95,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1898",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "14 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "15 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "High account activity",
+        "value": "29 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068800",
+    "timestamp": "2026-08-16T10:26:23",
+    "amount": 2.1,
+    "account_id": "ACC00366",
+    "merchant_id": "MER1742",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "15 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "16 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "High account activity",
+        "value": "30 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068801",
+    "timestamp": "2026-08-16T10:28:23",
+    "amount": 4.9,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0032",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "16 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "17 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "31 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068802",
+    "timestamp": "2026-08-16T10:32:23",
+    "amount": 4.77,
+    "account_id": "ACC00366",
+    "merchant_id": "MER0349",
+    "device_id": "DEV_TEST_0012",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "17 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "18 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "32 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068862",
+    "timestamp": "2026-08-16T12:11:50",
+    "amount": 0.94,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1091",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "28 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068863",
+    "timestamp": "2026-08-16T12:13:50",
+    "amount": 4.82,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1644",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "High account activity",
+        "value": "29 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068872",
+    "timestamp": "2026-08-16T12:21:50",
+    "amount": 2.77,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1700",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 7995"
+      },
+      {
+        "feature": "High account activity",
+        "value": "30 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068875",
+    "timestamp": "2026-08-16T12:30:50",
+    "amount": 3.97,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1122",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "31 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068887",
+    "timestamp": "2026-08-16T12:42:50",
+    "amount": 4.89,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1591",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "5 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "32 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068888",
+    "timestamp": "2026-08-16T12:43:50",
+    "amount": 2.62,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1142",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "6 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "33 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068890",
+    "timestamp": "2026-08-16T12:44:50",
+    "amount": 1.88,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1148",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "7 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "34 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068891",
+    "timestamp": "2026-08-16T12:45:50",
+    "amount": 4.58,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1190",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "8 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "35 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068892",
+    "timestamp": "2026-08-16T12:46:50",
+    "amount": 3.2,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0660",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "9 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "36 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068894",
+    "timestamp": "2026-08-16T12:50:50",
+    "amount": 3.16,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1338",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "10 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "37 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068895",
+    "timestamp": "2026-08-16T12:53:50",
+    "amount": 4.56,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0802",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "11 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "38 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068901",
+    "timestamp": "2026-08-16T12:58:50",
+    "amount": 1.78,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1029",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "12 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "12 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "39 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068902",
+    "timestamp": "2026-08-16T13:00:50",
+    "amount": 2.7,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0266",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "13 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "13 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "40 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068903",
+    "timestamp": "2026-08-16T13:00:50",
+    "amount": 3.05,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0618",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "14 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "14 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "41 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068904",
+    "timestamp": "2026-08-16T13:00:50",
+    "amount": 1.88,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0316",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "15 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "15 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "42 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068905",
+    "timestamp": "2026-08-16T13:00:50",
+    "amount": 1.1,
+    "account_id": "ACC02733",
+    "merchant_id": "MER0678",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "16 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "16 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "43 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068907",
+    "timestamp": "2026-08-16T13:01:50",
+    "amount": 1.23,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1305",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "17 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "17 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "44 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068908",
+    "timestamp": "2026-08-16T13:05:50",
+    "amount": 1.63,
+    "account_id": "ACC02733",
+    "merchant_id": "MER1114",
+    "device_id": "DEV_TEST_0002",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "18 txns"
+      },
+      {
+        "feature": "High 24h velocity",
+        "value": "18 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High account activity",
+        "value": "45 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069475",
+    "timestamp": "2026-08-17T03:54:32",
+    "amount": 3.52,
+    "account_id": "ACC04775",
+    "merchant_id": "MER1863",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069479",
+    "timestamp": "2026-08-17T03:57:32",
+    "amount": 1.76,
+    "account_id": "ACC04775",
+    "merchant_id": "MER0656",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069480",
+    "timestamp": "2026-08-17T03:59:32",
+    "amount": 1.88,
+    "account_id": "ACC04775",
+    "merchant_id": "MER1153",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "3 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069485",
+    "timestamp": "2026-08-17T04:02:32",
+    "amount": 1.92,
+    "account_id": "ACC04775",
+    "merchant_id": "MER1738",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "4 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069504",
+    "timestamp": "2026-08-17T04:30:32",
+    "amount": 4.56,
+    "account_id": "ACC04775",
+    "merchant_id": "MER1145",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "5 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069513",
+    "timestamp": "2026-08-17T04:43:32",
+    "amount": 3.15,
+    "account_id": "ACC04775",
+    "merchant_id": "MER0753",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "6 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069514",
+    "timestamp": "2026-08-17T04:44:32",
+    "amount": 1.18,
+    "account_id": "ACC04775",
+    "merchant_id": "MER1578",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "7 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069515",
+    "timestamp": "2026-08-17T04:45:32",
+    "amount": 0.75,
+    "account_id": "ACC04775",
+    "merchant_id": "MER0717",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "8 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069520",
+    "timestamp": "2026-08-17T04:49:32",
+    "amount": 1.6,
+    "account_id": "ACC04775",
+    "merchant_id": "MER0838",
+    "device_id": "DEV_TEST_0038",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "card_testing",
+    "reasons": [
+      {
+        "feature": "High 1h velocity",
+        "value": "9 txns"
+      },
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071743",
+    "timestamp": "2026-08-19T17:21:02",
+    "amount": 105.2,
+    "account_id": "ACC04988",
+    "merchant_id": "MER1697",
+    "device_id": "DEV_MULE_0017",
+    "channel": "online",
+    "fraud_score": 0.9966809144143227,
+    "is_fraud": true,
+    "fraud_pattern": "merchant_concentration",
+    "reasons": [
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN066624",
+    "timestamp": "2026-08-14T01:29:29",
+    "amount": 230.96,
+    "account_id": "ACC04058",
+    "merchant_id": "MER0435",
+    "device_id": "DEV_RING_0004_A",
+    "channel": "mobile",
+    "fraud_score": 0.9966553353050175,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "2 shared"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN067735",
+    "timestamp": "2026-08-15T07:09:25",
+    "amount": 606.35,
+    "account_id": "ACC03404",
+    "merchant_id": "MER0691",
+    "device_id": "DEV_RING_0014_A",
+    "channel": "mobile",
+    "fraud_score": 0.9966553353050175,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "6 shared"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 3.4"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071720",
+    "timestamp": "2026-08-19T16:43:52",
+    "amount": 297.14,
+    "account_id": "ACC03939",
+    "merchant_id": "MER0188",
+    "device_id": "DEV_RING_0014_A",
+    "channel": "mobile",
+    "fraud_score": 0.9966553353050175,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "6 shared"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN071877",
+    "timestamp": "2026-08-19T20:26:59",
+    "amount": 627.55,
+    "account_id": "ACC01947",
+    "merchant_id": "MER1134",
+    "device_id": "DEV_RING_0014_B",
+    "channel": "mobile",
+    "fraud_score": 0.9966553353050175,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "6 shared"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 3.3"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN073667",
+    "timestamp": "2026-08-21T19:41:15",
+    "amount": 564.77,
+    "account_id": "ACC03997",
+    "merchant_id": "MER1239",
+    "device_id": "DEV_RING_0004_B",
+    "channel": "mobile",
+    "fraud_score": 0.9966553353050175,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "4 shared"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065634",
+    "timestamp": "2026-08-12T23:01:18",
+    "amount": 251.83,
+    "account_id": "ACC02876",
+    "merchant_id": "MER1872",
+    "device_id": "DEV_RING_0003_B",
+    "channel": "online",
+    "fraud_score": 0.996646283726405,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "Shared device ring",
+        "value": "6 shared"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN068570",
+    "timestamp": "2026-08-16T04:35:48",
+    "amount": 681.1,
+    "account_id": "ACC00123",
+    "merchant_id": "MER0529",
+    "device_id": "DEV_RING_0014_A",
+    "channel": "online",
+    "fraud_score": 0.996646283726405,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "6 shared"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.1"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN069526",
+    "timestamp": "2026-08-17T05:08:20",
+    "amount": 662.24,
+    "account_id": "ACC00613",
+    "merchant_id": "MER1560",
+    "device_id": "DEV_RING_0011_A",
+    "channel": "online",
+    "fraud_score": 0.996646283726405,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "8 shared"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN073379",
+    "timestamp": "2026-08-21T12:22:55",
+    "amount": 607.28,
+    "account_id": "ACC01635",
+    "merchant_id": "MER0673",
+    "device_id": "DEV_RING_0011_A",
+    "channel": "online",
+    "fraud_score": 0.996646283726405,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "8 shared"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN074103",
+    "timestamp": "2026-08-22T07:08:24",
+    "amount": 765.69,
+    "account_id": "ACC04100",
+    "merchant_id": "MER1642",
+    "device_id": "DEV_RING_0006_B",
+    "channel": "online",
+    "fraud_score": 0.996646283726405,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "8 shared"
+      },
+      {
+        "feature": "High-risk MCC",
+        "value": "MCC 5967"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 2.1"
+      }
+    ],
+    "status": "open"
+  },
+  {
+    "txn_id": "TXN065932",
+    "timestamp": "2026-08-13T07:17:37",
+    "amount": 793.44,
+    "account_id": "ACC02736",
+    "merchant_id": "MER1457",
+    "device_id": "DEV_RING_0006_A",
+    "channel": "mobile",
+    "fraud_score": 0.9965772038280454,
+    "is_fraud": true,
+    "fraud_pattern": "shared_device_ring",
+    "reasons": [
+      {
+        "feature": "New merchant",
+        "value": "First time"
+      },
+      {
+        "feature": "Shared device ring",
+        "value": "9 shared"
+      },
+      {
+        "feature": "Amount spike",
+        "value": "z-score 3.4"
+      },
+      {
+        "feature": "High account activity",
+        "value": "21 merchants"
+      }
+    ],
+    "status": "open"
+  }
+]
