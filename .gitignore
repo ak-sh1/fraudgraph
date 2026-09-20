@@ -18,10 +18,10 @@ data/processed/*.csv
 data/processed/*.pkl
 !data/demo/
 
-# Models
+# Models (pickled)
 *.pkl
 *.joblib
-models/
+data/models/
 
 # Next.js
 .next/
